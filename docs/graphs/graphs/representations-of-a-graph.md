@@ -58,7 +58,9 @@ title: "Representations of a graph"
     5 & 0 & 0 & 0 & 1 & 0 & 1\\
     6 & 0 & 0 & 0 & 0 & 0 & 0\\
     \end{array}
-    \qquad\qquad
+    $$
+
+    $$
     \mat{B}:\quad
     \begin{array}{c|rrrrrrrrr}
     & a_1 & a_2 & a_3 & a_4 & a_5 & a_6 & a_7 & a_8 & a_9\\ \hline

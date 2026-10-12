@@ -17,8 +17,7 @@ title: "Exercises · Graphs"
     - **(G1)** <strong>Incidence matrix.</strong> The arcs are numbered $a_1,a_2,\dots,a_m$ in lexicographic order, and
 
         $$
-        b_{ik}=+1 \text{ if $i$ is the tail of } a_k, \qquad b_{ik}=-1 \text{ if $i$ is the head of } a_k, \qquad
-        b_{ik}=0 \text{ otherwise.}
+        b_{ik}=\begin{cases} +1 & \text{if $i$ is the tail of } a_k,\\ -1 & \text{if $i$ is the head of } a_k,\\ 0 & \text{otherwise.} \end{cases}
         $$
 
     - **(G2)** <strong>Lists.</strong> The adjacency list $L(i)$ contains the successors of $i$, by increasing index.
