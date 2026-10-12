@@ -42,6 +42,36 @@ The same entries as the menu: each card gives its part and its chapters in the l
 
     [:octicons-arrow-right-24: The part](graphs/index.md)
 
+-   :material-source-branch: **Trees and paths**
+
+    ---
+
+    *Part 2 · Chapters 2–3*
+
+    Spanning trees · Shortest paths
+
+    [:octicons-arrow-right-24: The part](trees-and-paths/index.md)
+
+-   :material-pipe: **Flows**
+
+    ---
+
+    *Part 3 · Chapter 4*
+
+    Flow models
+
+    [:octicons-arrow-right-24: The part](flows/index.md)
+
+-   :material-gesture-tap: **Lab**
+
+    ---
+
+    *Interactive apps*
+
+    The algorithms of the course step by step, on the reference instances or on your own.
+
+    [:octicons-arrow-right-24: The apps](lab/index.md)
+
 </div>
 
 ## How to use these notes

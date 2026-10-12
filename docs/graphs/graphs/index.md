@@ -6,7 +6,7 @@ title: "Graphs"
 
 <div class="info-capitolo" markdown>
 
-**Part 1 · Graphs · Chapter 1** · [:material-file-pdf-box: Lecture notes, volume 1 (PDF)](../../pdf/lecture-notes-1-graphs.pdf) · [:material-pencil: Exercises: Graphs](../../exercises/graphs.md)
+**Part 1 · Graphs · Chapter 1** · [:material-file-pdf-box: Lecture notes, volume 1 (PDF)](../../pdf/lecture-notes-1-graphs.pdf) · [:material-pencil: Exercises: Graphs](../../exercises/graphs.md) · [:material-gesture-tap: App: Graph search: BFS and DFS](../../lab/graph-search-bfs-dfs.md)
 
 </div>
 
@@ -73,3 +73,7 @@ title: "Graphs"
 ---
 
 **Exercises on this chapter:** [:material-pencil: Graphs](../../exercises/graphs.md)
+
+<!-- laboratorio-interattivo: sezione generata da interattivi.py -->
+
+:material-flask-outline: **In the interactive lab:** [Graph search: BFS and DFS](../../lab/graph-search-bfs-dfs.md).
