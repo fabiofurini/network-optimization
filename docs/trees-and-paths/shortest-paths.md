@@ -6,7 +6,7 @@ title: "Shortest paths"
 
 <div class="info-capitolo" markdown>
 
-**Part 2 · Trees and paths · Chapter 3** · [:material-file-pdf-box: Lecture notes, volume 2 (PDF)](../pdf/lecture-notes-2-trees-and-paths.pdf) · [:material-pencil: Exercises: Shortest paths](../exercises/shortest-paths.md)
+**Part 2 · Trees and paths · Chapter 3** · [:material-file-pdf-box: Lecture notes, volume 2 (PDF)](../pdf/lecture-notes-2-trees-and-paths.pdf) · [:material-pencil: Exercises: Shortest paths](../exercises/shortest-paths.md) · [:material-gesture-tap: App: Shortest paths: Dijkstra, Bellman–Ford, acyclic graphs](../lab/shortest-paths-dijkstra-bellman-ford.md)
 
 </div>
 
@@ -945,3 +945,7 @@ title: "Shortest paths"
 ---
 
 **Exercises on this chapter:** [:material-pencil: Shortest paths](../exercises/shortest-paths.md)
+
+<!-- laboratorio-interattivo: sezione generata da interattivi.py -->
+
+:material-flask-outline: **In the interactive lab:** [Shortest paths: Dijkstra, Bellman–Ford, acyclic graphs](../lab/shortest-paths-dijkstra-bellman-ford.md).

@@ -34,4 +34,12 @@ which you can also change. Pick an app: it opens full page. Everything runs in t
 
     [Open the app →](minimum-spanning-tree-kruskal-prim.md)
 
+-   :material-map-marker-path: **Shortest paths: Dijkstra, Bellman–Ford, acyclic graphs**
+
+    ---
+
+    The labels d(i) and pred(i) step by step: Dijkstra's permanent nodes, Bellman–Ford's passes with negative cycles, the topological order; at the end the tree and the potentials certificate.
+
+    [Open the app →](shortest-paths-dijkstra-bellman-ford.md)
+
 </div>

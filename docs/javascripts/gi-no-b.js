@@ -41,11 +41,11 @@
   // d″ (d″₅₄ = −10), il grafo aciclico con (3,4) al posto di (4,3), d₃₄ = 1 e le lunghezze d′
   const D_RIF = [7, 2, 3, 3, 8, 1, 5, 2, 7];
   const SP_ES = [
-    { nome: T("lunghezze d (esempi 3.1 e 3.9)", "lengths d (Examples 3.1 and 3.9)"), A: conPesi(ARCHI_RIF, D_RIF) },
-    { nome: T("lunghezze d′, d′₅₄ = −3 (esempio 3.7)", "lengths d′, d′₅₄ = −3 (Example 3.7)"), A: conPesi(ARCHI_RIF, [7, 2, 3, 3, 8, 1, 5, -3, 7]) },
-    { nome: T("lunghezze d″, d″₅₄ = −10 (esempio 3.8)", "lengths d″, d″₅₄ = −10 (Example 3.8)"), A: conPesi(ARCHI_RIF, [7, 2, 3, 3, 8, 1, 5, -10, 7]) },
-    { nome: T("grafo aciclico (esempio 3.6)", "acyclic graph (Example 3.6)"), A: ordina([[1, 2, 7], [1, 3, 2], [2, 4, 3], [3, 2, 3], [3, 4, 1], [3, 5, 8], [4, 6, 5], [5, 4, -3], [5, 6, 7]]) },
-    { nome: T("Dijkstra sbaglia (esempio 3.10)", "Dijkstra fails (Example 3.10)"), n: 3, P: [[0, 0], [2.6, 1.2], [2.6, -1.2]], A: [[1, 2, 2], [1, 3, 3], [3, 2, -2]] },
+    { nome: T("lunghezze d (es. 3.1, 3.9)", "lengths d (Ex. 3.1, 3.9)"), A: conPesi(ARCHI_RIF, D_RIF) },
+    { nome: T("d′₅₄ = −3 (es. 3.7)", "d′₅₄ = −3 (Ex. 3.7)"), A: conPesi(ARCHI_RIF, [7, 2, 3, 3, 8, 1, 5, -3, 7]) },
+    { nome: T("d″₅₄ = −10 (es. 3.8)", "d″₅₄ = −10 (Ex. 3.8)"), A: conPesi(ARCHI_RIF, [7, 2, 3, 3, 8, 1, 5, -10, 7]) },
+    { nome: T("grafo aciclico (es. 3.6)", "acyclic graph (Ex. 3.6)"), A: ordina([[1, 2, 7], [1, 3, 2], [2, 4, 3], [3, 2, 3], [3, 4, 1], [3, 5, 8], [4, 6, 5], [5, 4, -3], [5, 6, 7]]) },
+    { nome: T("Dijkstra sbaglia (es. 3.10)", "Dijkstra fails (Ex. 3.10)"), n: 3, P: [[0, 0], [2.6, 1.2], [2.6, -1.2]], A: [[1, 2, 2], [1, 3, 3], [3, 2, -2]] },
   ].map((e) => Object.assign({ n: 6, diretto: true, s: 1, P: RIF }, e));
   const SP_DAG = 3;          // l'istanza aciclica del menu
 
@@ -199,7 +199,7 @@
       const C = M.COL(st), alg = st.chiave();
       const L = [[C.a, T("arco esaminato; nodo scelto (bordo)", "arc being examined; node selected (border)"), ""]];
       if (alg === "dijkstra") L.push([C.blu, T("etichetta permanente e arco del suo predecessore", "permanent label and arc of its predecessor"), ""], [C.b, T("etichetta temporanea finita e arco del predecessore", "finite temporary label and arc of the predecessor"), ""]);
-      else L.push([C.b, T("etichetta finita e arco del predecessore", "finite label and arc of the predecessor"), ""], [C.blu, alg === "dag" ? T("nodo già esaminato; albero dei cammini minimi", "node already scanned; shortest path tree") : T("albero dei cammini minimi (fine)", "shortest path tree (end)"), ""]);
+      else L.push([C.b, T("etichetta finita e arco del predecessore", "finite label and arc of the predecessor"), ""], [C.blu, alg === "dag" ? T("nodo già elaborato; albero dei cammini minimi", "node already processed; shortest path tree") : T("albero dei cammini minimi (fine)", "shortest path tree (end)"), ""]);
       if (alg === "bellman-ford") L[0] = [C.a, T("nodo della passata (bordo) e archi entranti; pieno: quello del minimo", "node of the pass (border) and entering arcs; solid: the one of the minimum"), ""];
       L.push([C.rosso, T("ciclo negativo; arco con costo ridotto negativo", "negative cycle; arc with a negative reduced cost"), "dashed"]);
       return L;
@@ -302,7 +302,7 @@
       const S = spStato(st), { R, P, alg } = S, A = R.A, t = P.tipo;
       if (t === "init") return alg === "bellman-ford" ? `d^0(${S.s}) = 0, \\quad d^0(j) = +\\infty \\ (j \\ne ${S.s})` : `d(${S.s}) = 0, \\quad d(j) = +\\infty \\ (j \\ne ${S.s})`;
       if (t === "sel") {
-        if (alg === "dijkstra") return `d(${P.i}) = \\min\\{ d(j) : j \\text{ ${T("temporaneo", "temporary")}} \\} = ${P.d[P.i]} \;\\Rightarrow\; ${P.i} \\text{ ${T("diventa permanente", "becomes permanent")}}`;
+        if (alg === "dijkstra") return `d(${P.i}) = \\min\\{ d(j) : j \\text{ ${T("temporaneo", "temporary")}} \\} = ${P.d[P.i]} \\;\\Rightarrow\\; ${P.i} \\text{ ${T("diventa permanente", "becomes permanent")}}`;
         return P.salta ? `d(${P.i}) = +\\infty: \\text{ ${T("nodo saltato", "node skipped")}}`
           : `\\text{${T("nodo", "node")} } ${P.i} \\ (${T("posizione", "position")}\\ ${P.pos + 1}): \\ d(${P.i}) = ${P.d[P.i]}`;
       }
@@ -310,13 +310,13 @@
         const { i, j, w, prima, nuovo, agg } = P;
         if (P.permanente) return `${j} \\text{ ${T("è permanente: l'arco", "is permanent: the arc")} } (${i},${j}) \\text{ ${T("non si usa", "is not used")}}`;
         return `d(${i}) + d_{${i}${j}} = ${somma(P.d[i], w)} = ${nuovo} ` +
-          (agg ? `< d(${j}) = ${vTex(prima)} \;\\Rightarrow\; d(${j}) := ${nuovo},\\ ${PRED}(${j}) := ${i}` : `\\ge d(${j}) = ${vTex(prima)}`);
+          (agg ? `< d(${j}) = ${vTex(prima)} \\;\\Rightarrow\\; d(${j}) := ${nuovo},\\ ${PRED}(${j}) := ${i}` : `\\ge d(${j}) = ${vTex(prima)}`);
       }
       if (t === "bf") {
         const k = P.k, termini = [vTex(P.prima)].concat(P.entr.map((e) => (e.val === INF ? "+\\infty" : `${somma(P.prec[e.i], e.w)}`)));
         return `d^{${k}}(${P.j}) = \\min\\{${termini.join(",\\ ")}\\} = ${vTex(P.nuovo)}` + (P.agg ? `,\\ \\ ${PRED}(${P.j}) := ${A[P.arg][0]}` : "");
       }
-      if (t === "pass") return `d^{${P.k}} = d^{${P.k - 1}} \;\\Rightarrow\; \\text{STOP}`;
+      if (t === "pass") return `d^{${P.k}} = d^{${P.k - 1}} \\;\\Rightarrow\\; \\text{STOP}`;
       if (t === "ciclo") return `d^{${P.k}}(${P.j}) < d^{${P.k - 1}}(${P.j}): \\ W = ${P.W.join(",")}, \\ \\ C = ${P.ciclo.concat(P.ciclo[0]).join(",")},\\ d(C) = ${P.lung}`;
       if (t === "topo") return P.ciclo ? `\\text{${T("ciclo", "cycle")} } ${P.ciclo.concat(P.ciclo[0]).join(",")}: \\text{ ${T("nessun ordine topologico", "no topological order")}}`
         : `\\text{${T("ordine topologico", "topological order")}: } ${P.ord.join(",\\ ")}`;
@@ -362,8 +362,8 @@
       } else {
         nota = P.viol.length ? T(`Le etichette ${M.tinta(C.rosso, "non sono ottime")}: con \\(\\pi = -d\\) l'arco \\(${arcoTex(A, P.viol[0])}\\) ha costo ridotto negativo. Prova Bellman–Ford.`,
           `The labels ${M.tinta(C.rosso, "are not optimal")}: with \\(\\pi = -d\\) the arc \\(${arcoTex(A, P.viol[0])}\\) has a negative reduced cost. Try Bellman–Ford.`)
-          : T(`Gli archi \\((${PRED}(j), j)\\) formano l'${M.tinta(C.blu, "albero dei cammini minimi")}. I potenziali \\(\\pi_i = -d(i)\\) sono ammissibili, \\(\\pi_i - \\pi_j \\le d_{ij}\\), e gli archi dell'albero sono tesi (\\(\\bar{c}_{ij} = 0\\)): certificato di ottimalità.`,
-            `The arcs \\((${PRED}(j), j)\\) form the ${M.tinta(C.blu, "shortest path tree")}. The potentials \\(\\pi_i = -d(i)\\) are feasible, \\(\\pi_i - \\pi_j \\le d_{ij}\\), and the tree arcs are tight (\\(\\bar{c}_{ij} = 0\\)): a certificate of optimality.`);
+          : T(`${M.tinta(C.blu, "Albero dei cammini minimi")}: con \\(\\pi_i = -d(i)\\) ogni \\(\\bar{c}_{ij} \\ge 0\\) e gli archi dell'albero sono tesi, il certificato di ottimalità.`,
+            `${M.tinta(C.blu, "Shortest path tree")}: with \\(\\pi_i = -d(i)\\) every \\(\\bar{c}_{ij} \\ge 0\\) and the tree arcs are tight, the certificate of optimality.`);
       }
       // tabella trasposta (una colonna per nodo): sta nel pannello senza scorrere
       const hl = t === "sel" || t === "rel" ? (t === "sel" ? P.i : P.j) : (t === "bf" || t === "ciclo") ? P.j : -1;
@@ -376,7 +376,7 @@
       const riga = (nome, f) => `<tr><th style="text-align:left">${nome}</th>` + Array.from({ length: n }, (_, z) => cella(z + 1, f(z + 1))).join("") + "</tr>";
       let tab = `<table class="gi-tabella">` + riga("\\(i\\)", (i) => `<strong>${i}</strong>`);
       if (alg === "bellman-ford" && P.prec) tab += riga(`\\(d^{${P.k - 1}}\\)`, (i) => num(P.prec[i]));
-      tab += riga(alg === "bellman-ford" && P.prec ? `\\(d^{${P.k}}\\)` : "\\(d(i)\\)", (i) => (alg === "bellman-ford" && P.prec && t === "bf" && i > P.j ? "" : num(P.d[i])));
+      if (t !== "fine") tab += riga(alg === "bellman-ford" && P.prec ? `\\(d^{${P.k}}\\)` : "\\(d(i)\\)", (i) => (alg === "bellman-ford" && P.prec && t === "bf" && i > P.j ? "" : num(P.d[i])));
       if (t === "fine") tab += riga("\\(\\pi_i\\)", (i) => (P.d[i] === INF ? "" : `\\(${-P.d[i] || 0}\\)`));
       tab += riga(`\\(${PRED}(i)\\)`, (i) => (P.p[i] ? String(P.p[i]) : "–")) + "</table>";
       if (t !== "fine" && alg !== "bellman-ford") tab += `<p style="margin:.2em 0;font-size:.9em;color:${C.muted}">${alg === "dijkstra" ? T("in blu: etichette permanenti", "in blue: permanent labels") : T("in blu: nodi già elaborati", "in blue: nodes already processed")}</p>`;
@@ -527,7 +527,7 @@
         const righeLog = aumenti.map((x) => [T(`iterazione ${x.h}: cammino ${camminoTxt(x.cammino)}, δ = ${x.delta}, v = ${x.v}`, `iteration ${x.h}: path ${camminoTxt(x.cammino)}, δ = ${x.delta}, v = ${x.v}`), x === P ? C.a : C.testo]);
         if (inCorso) righeLog.push([T(`iterazione ${P.h}: cammino ${camminoTxt(P.cammino)}`, `iteration ${P.h}: path ${camminoTxt(P.cammino)}`) + (t === "collo" ? `, δ = ${P.delta}` : ""), C.a]);
         if (taglio) righeLog.push([T(`taglio (S, N∖S) con S = {${P.S.join(", ")}}: u(S, N∖S) = ${P.avanti.map((q) => A[q][2]).join(" + ")} = ${P.cap} = v`, `cut (S, N∖S) with S = {${P.S.join(", ")}}: u(S, N∖S) = ${P.avanti.map((q) => A[q][2]).join(" + ")} = ${P.cap} = v`), C.rosso]);
-        const vis6 = righeLog.slice(-6), lh = 21, logH = 14 + lh * Math.max(3, vis6.length), fondo = 24;
+        const vis6 = righeLog.slice(H < 480 ? -4 : -6), lh = H < 480 ? 18 : 21, logH = 12 + lh * Math.max(1, vis6.length), fondo = 24;
         const hG = H - logH - fondo, w2 = (W - 24) / 2;
         const etST = (i) => (i === S.s ? { testo: "s", colore: C.muted } : i === S.t ? { testo: "t", colore: C.muted } : null);
         const nodoBase = (i) => {
@@ -559,7 +559,7 @@
         if (t === "collo") cap2 += T(` · collo di bottiglia δ = ${P.delta}`, ` · bottleneck δ = ${P.delta}`);
         d.text(w2 + 26, 14, cap2, { anchorX: "left", fontSize: 13.5, strokeColor: C.muted, cssStyle: "font-style:italic;font-weight:600" });
         N.disegnaGrafo(d, Gr, { x: w2 + 18, y: 22, w: w2, h: hG - 22 }, {
-          margine: 22,
+          margine: 22, curva: 0.3,
           arco: (a) => {
             const key = a.i + "-" + a.j, back = a.v[1] < 0;
             let s = { colore: C.muted, spessore: 1.6, opacita: 0.8, dash: back ? 3 : 0, etichetta: String(a.v[0]) };
