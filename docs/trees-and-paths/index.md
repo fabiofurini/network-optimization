@@ -14,7 +14,7 @@ Minimum spanning trees (Kruskal, Prim, the cut and cycle properties) and shortes
 
     The minimum spanning tree problem · Cuts and cycles · The cut property and the cycle property · The generic greedy algorithm
 
-    [:octicons-arrow-right-24: Read the chapter](minimum-spanning-trees.md) · [Exercises](../exercises/minimum-spanning-trees.md)
+    [:octicons-arrow-right-24: Read the chapter](minimum-spanning-trees/index.md) · [Exercises](../exercises/minimum-spanning-trees.md)
 
 -   **3. Shortest paths**
 
@@ -22,6 +22,6 @@ Minimum spanning trees (Kruskal, Prim, the cut and cycle properties) and shortes
 
     Shortest path problems · Optimality conditions and potentials · The linear programming formulation · Shortest paths in acyclic graphs
 
-    [:octicons-arrow-right-24: Read the chapter](shortest-paths.md) · [Exercises](../exercises/shortest-paths.md)
+    [:octicons-arrow-right-24: Read the chapter](shortest-paths/index.md) · [Exercises](../exercises/shortest-paths.md)
 
 </div>

@@ -5,7 +5,7 @@ hide:
 title: "Minimum spanning trees: Kruskal and Prim"
 ---
 
-[← Lab](index.md) · Chapter: [Minimum spanning trees](../trees-and-paths/minimum-spanning-trees.md)
+[← Lab](index.md) · Chapter: [Minimum spanning trees](../trees-and-paths/minimum-spanning-trees/index.md)
 
 # Minimum spanning trees: Kruskal and Prim
 

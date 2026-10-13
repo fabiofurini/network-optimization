@@ -5,7 +5,7 @@ hide:
 title: "Shortest paths: Dijkstra, Bellman–Ford, acyclic graphs"
 ---
 
-[← Lab](index.md) · Chapter: [Shortest paths](../trees-and-paths/shortest-paths.md)
+[← Lab](index.md) · Chapter: [Shortest paths](../trees-and-paths/shortest-paths/index.md)
 
 # Shortest paths: Dijkstra, Bellman–Ford, acyclic graphs
 

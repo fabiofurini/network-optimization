@@ -56,11 +56,31 @@ The same entries as the menu: each card gives its part and its chapters in the l
 
     ---
 
-    *Part 3 · Chapter 4*
+    *Part 3 · Chapters 4–7*
 
-    Flow models
+    Flow models · Maximum flow · Minimum cost flow · Transportation and assignment
 
     [:octicons-arrow-right-24: The part](flows/index.md)
+
+-   :material-swap-horizontal: **The network simplex**
+
+    ---
+
+    *Part 4 · Chapter 8*
+
+    Network simplex
+
+    [:octicons-arrow-right-24: The part](network-simplex/index.md)
+
+-   :material-chart-gantt: **Project management**
+
+    ---
+
+    *Part 5 · Chapter 9*
+
+    Project management
+
+    [:octicons-arrow-right-24: The part](project-management/index.md)
 
 -   :material-gesture-tap: **Lab**
 

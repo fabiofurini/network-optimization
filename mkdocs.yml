@@ -122,7 +122,7 @@ markdown_extensions:
 
 extra_javascript:
   - javascripts/cloudflare-analytics.js?v=bff73345a1
-  - javascripts/mathjax.js?v=ea7087387b
+  - javascripts/mathjax.js?v=00baaa9282
   - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js
   # grafici interattivi: JSXGraph, il motore, poi le ricette (gi-*.js, le aggiunge genera_sito.py)
   - https://cdn.jsdelivr.net/npm/jsxgraph@1.10.1/distrib/jsxgraphcore.js
@@ -130,7 +130,7 @@ extra_javascript:
   - javascripts/gi-comune.js?v=40df75e3e5
   - javascripts/gi-no-0.js?v=da165c7941
   - javascripts/gi-no-a.js?v=c95bdb2f54
-  - javascripts/gi-no-b.js?v=65225c2af5
+  - javascripts/gi-no-b.js?v=685b325a9e
 
 
 nav:
@@ -147,11 +147,86 @@ nav:
           - "Graph search": graphs/graphs/graph-search.md
   - Trees and paths:
       - trees-and-paths/index.md
-      - "2. Spanning trees": trees-and-paths/minimum-spanning-trees.md
-      - "3. Shortest paths": trees-and-paths/shortest-paths.md
+      - "2. Spanning trees":
+          - trees-and-paths/minimum-spanning-trees/index.md
+          - "The minimum spanning tree problem": trees-and-paths/minimum-spanning-trees/the-minimum-spanning-tree-problem.md
+          - "Cuts and cycles": trees-and-paths/minimum-spanning-trees/cuts-and-cycles.md
+          - "The cut property and the cycle property": trees-and-paths/minimum-spanning-trees/the-cut-property-and-the-cycle-property.md
+          - "The generic greedy algorithm": trees-and-paths/minimum-spanning-trees/the-generic-greedy-algorithm.md
+          - "Kruskal's algorithm": trees-and-paths/minimum-spanning-trees/kruskal-s-algorithm.md
+          - "Prim's algorithm": trees-and-paths/minimum-spanning-trees/prim-s-algorithm.md
+          - "Uniqueness of the minimum spanning tree": trees-and-paths/minimum-spanning-trees/uniqueness-of-the-minimum-spanning-tree.md
+      - "3. Shortest paths":
+          - trees-and-paths/shortest-paths/index.md
+          - "Shortest path problems": trees-and-paths/shortest-paths/shortest-path-problems.md
+          - "Optimality conditions and potentials": trees-and-paths/shortest-paths/optimality-conditions-and-potentials.md
+          - "The linear programming formulation": trees-and-paths/shortest-paths/the-linear-programming-formulation.md
+          - "Shortest paths in acyclic graphs": trees-and-paths/shortest-paths/shortest-paths-in-acyclic-graphs.md
+          - "The Bellman–Ford algorithm": trees-and-paths/shortest-paths/the-bellman-ford-algorithm.md
+          - "Dijkstra's algorithm": trees-and-paths/shortest-paths/dijkstra-s-algorithm.md
   - Flows:
       - flows/index.md
-      - "4. Flow models": flows/network-flow-models.md
+      - "4. Flow models":
+          - flows/network-flow-models/index.md
+          - "Networks and flows": flows/network-flow-models/networks-and-flows.md
+          - "The minimum cost flow model": flows/network-flow-models/the-minimum-cost-flow-model.md
+          - "Feasibility conditions": flows/network-flow-models/feasibility-conditions.md
+          - "Removing the lower bounds": flows/network-flow-models/removing-the-lower-bounds.md
+          - "Unbalanced instances": flows/network-flow-models/unbalanced-instances.md
+          - "Total unimodularity and integrality": flows/network-flow-models/total-unimodularity-and-integrality.md
+          - "The dual model and the reduced costs": flows/network-flow-models/the-dual-model-and-the-reduced-costs.md
+          - "Special cases": flows/network-flow-models/special-cases.md
+          - "A transshipment instance": flows/network-flow-models/a-transshipment-instance.md
+      - "5. Maximum flow":
+          - flows/maximum-flow/index.md
+          - "The maximum flow problem": flows/maximum-flow/the-maximum-flow-problem.md
+          - "Cuts": flows/maximum-flow/cuts.md
+          - "The residual network": flows/maximum-flow/the-residual-network.md
+          - "The max-flow min-cut theorem": flows/maximum-flow/the-max-flow-min-cut-theorem.md
+          - "The Ford–Fulkerson algorithm": flows/maximum-flow/the-ford-fulkerson-algorithm.md
+          - "The Edmonds–Karp algorithm": flows/maximum-flow/the-edmonds-karp-algorithm.md
+          - "Applications": flows/maximum-flow/applications.md
+      - "6. Minimum cost flow":
+          - flows/min-cost-flow/index.md
+          - "The residual network with costs": flows/min-cost-flow/the-residual-network-with-costs.md
+          - "Circulations and their decomposition": flows/min-cost-flow/circulations-and-their-decomposition.md
+          - "Negative cycle optimality conditions": flows/min-cost-flow/negative-cycle-optimality-conditions.md
+          - "Optimality conditions with potentials": flows/min-cost-flow/optimality-conditions-with-potentials.md
+          - "A first feasible flow": flows/min-cost-flow/a-first-feasible-flow.md
+          - "The cycle-canceling algorithm": flows/min-cost-flow/the-cycle-canceling-algorithm.md
+          - "The successive shortest path algorithm": flows/min-cost-flow/the-successive-shortest-path-algorithm.md
+      - "7. Transportation and assignment":
+          - flows/transportation-and-assignment/index.md
+          - "The transportation problem": flows/transportation-and-assignment/the-transportation-problem.md
+          - "Basic solutions": flows/transportation-and-assignment/basic-solutions.md
+          - "Initial basic feasible solutions": flows/transportation-and-assignment/initial-basic-feasible-solutions.md
+          - "The potential method": flows/transportation-and-assignment/the-potential-method.md
+          - "The assignment problem": flows/transportation-and-assignment/the-assignment-problem.md
+  - Network simplex:
+      - network-simplex/index.md
+      - "8. Network simplex":
+          - network-simplex/network-simplex/index.md
+          - "The simplex algorithm on the minimum cost flow model": network-simplex/network-simplex/the-simplex-algorithm-on-the-minimum-cost-flow-model.md
+          - "Bases and spanning trees": network-simplex/network-simplex/bases-and-spanning-trees.md
+          - "Potentials and optimality": network-simplex/network-simplex/potentials-and-optimality.md
+          - "The pivot": network-simplex/network-simplex/the-pivot.md
+          - "The network simplex algorithm": network-simplex/network-simplex/the-network-simplex-algorithm.md
+          - "An uncapacitated example": network-simplex/network-simplex/an-uncapacitated-example.md
+          - "Degeneracy and strongly feasible trees": network-simplex/network-simplex/degeneracy-and-strongly-feasible-trees.md
+          - "A capacitated example with a degenerate pivot": network-simplex/network-simplex/a-capacitated-example-with-a-degenerate-pivot.md
+          - "The initial tree: Phase 0": network-simplex/network-simplex/the-initial-tree-phase-0.md
+  - Project management:
+      - project-management/index.md
+      - "9. Project management":
+          - project-management/project-management/index.md
+          - "Projects and project networks": project-management/project-management/projects-and-project-networks.md
+          - "Paths and critical paths": project-management/project-management/paths-and-critical-paths.md
+          - "The forward pass: earliest times": project-management/project-management/the-forward-pass-earliest-times.md
+          - "The backward pass: latest times": project-management/project-management/the-backward-pass-latest-times.md
+          - "Slacks and critical activities": project-management/project-management/slacks-and-critical-activities.md
+          - "The critical path method": project-management/project-management/the-critical-path-method.md
+          - "The linear programming model": project-management/project-management/the-linear-programming-model.md
+          - "Two critical paths and changes of durations": project-management/project-management/two-critical-paths-and-changes-of-durations.md
   - Exercises:
       - exercises/index.md
       - "Graphs":
@@ -161,6 +236,13 @@ nav:
           - "3. Shortest paths": exercises/shortest-paths.md
       - "Flows":
           - "4. Flow models": exercises/network-flow-models.md
+          - "5. Maximum flow": exercises/maximum-flow.md
+          - "6. Minimum cost flow": exercises/min-cost-flow.md
+          - "7. Transportation and assignment": exercises/transportation-and-assignment.md
+      - "Network simplex":
+          - "8. Network simplex": exercises/network-simplex.md
+      - "Project management":
+          - "9. Project management": exercises/project-management.md
   - Lab: lab/index.md
   - Downloads: downloads.md
   - Index: full-index.md

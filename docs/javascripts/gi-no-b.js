@@ -12,7 +12,7 @@
  *                      Edmonds-Karp (visita in ampiezza: cammino con il minimo numero di archi) sulla rete residua,
  *                      con collo di bottiglia, aggiornamento del flusso e, alla fine, il taglio minimo (S, N∖S).
  *                      Nella rete residua i vicini per indice crescente; aggiornamenti solo se strettamente migliori.
- *                      Istanza provvisoria (il capitolo 5 non c'è ancora): il grafo di riferimento con capacità,
+ *                      Istanza: il grafo di riferimento con le capacità del capitolo 5 «Maximum flow»,
  *                      valore massimo 7 controllato con gurobipy.
  *
  * Il disegno dei grafi, le istanze e i comandi vengono dal motore gi-no-0.js (window.GI_NO). Verde riservato ai

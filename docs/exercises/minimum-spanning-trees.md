@@ -6,7 +6,7 @@ title: "Exercises · Minimum spanning trees"
 
 <div class="info-capitolo" markdown>
 
-**Exercises · Chapter 2** · each solution opens with a click · [:material-book-open-variant: Chapter 2: Spanning trees](../trees-and-paths/minimum-spanning-trees.md) · [:material-file-pdf-box: Exercises, volume 2 (PDF)](../pdf/exercises-2-trees-and-paths.pdf)
+**Exercises · Chapter 2** · each solution opens with a click · [:material-book-open-variant: Chapter 2: Spanning trees](../trees-and-paths/minimum-spanning-trees/index.md) · [:material-file-pdf-box: Exercises, volume 2 (PDF)](../pdf/exercises-2-trees-and-paths.pdf)
 
 </div>
 

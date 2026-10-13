@@ -6,7 +6,7 @@ title: "Exercises · Network flow models"
 
 <div class="info-capitolo" markdown>
 
-**Exercises · Chapter 4** · each solution opens with a click · [:material-book-open-variant: Chapter 4: Flow models](../flows/network-flow-models.md) · [:material-file-pdf-box: Exercises, volume 3 (PDF)](../pdf/exercises-3-flows.pdf)
+**Exercises · Chapter 4** · each solution opens with a click · [:material-book-open-variant: Chapter 4: Flow models](../flows/network-flow-models/index.md) · [:material-file-pdf-box: Exercises, volume 3 (PDF)](../pdf/exercises-3-flows.pdf)
 
 </div>
 

@@ -43,3 +43,17 @@ which you can also change. Pick an app: it opens full page. Everything runs in t
     [Open the app →](shortest-paths-dijkstra-bellman-ford.md)
 
 </div>
+
+## Flows
+
+<div class="grid cards" markdown>
+
+-   :material-pipe: **Maximum flow: Ford–Fulkerson and Edmonds–Karp**
+
+    ---
+
+    The residual network, the augmenting path (depth-first or breadth-first search), the bottleneck and the flow update; at the end the minimum cut, whose capacity equals the flow value.
+
+    [Open the app →](maximum-flow-ford-fulkerson-edmonds-karp.md)
+
+</div>

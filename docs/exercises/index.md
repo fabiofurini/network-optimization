@@ -14,3 +14,14 @@ Exercises with **worked solutions**, chapter by chapter, with the same parts and
 ## Flows
 
 - [4. Network flow models](network-flow-models.md) · 5 exercises
+- [5. Maximum flow](maximum-flow.md) · 6 exercises
+- [6. Minimum cost flow](min-cost-flow.md) · 6 exercises
+- [7. Transportation and assignment](transportation-and-assignment.md) · 6 exercises
+
+## Network simplex
+
+- [8. The network simplex](network-simplex.md) · 6 exercises
+
+## Project management
+
+- [9. Project management](project-management.md) · 6 exercises
