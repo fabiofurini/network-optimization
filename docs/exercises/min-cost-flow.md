@@ -400,7 +400,7 @@ title: "Exercises · Minimum cost flow"
 
         - the arcs with $\bar{c}_{ij}>0$, $(1,3)$, $(2,3)$, $(2,5)$, $(5,1)$, are empty;
 
-        - the arcs with $\bar{c}_{ij}<0$, $(4,3)$, are saturated;
+        - the arc with $\bar{c}_{ij}<0$, $(4,3)$, is saturated;
 
         - no arc is strictly between its bounds.
 

@@ -6,7 +6,7 @@ title: "Transportation and assignment"
 
 <div class="info-capitolo" markdown>
 
-**Part 3 · Flows · Chapter 7** · [:material-file-pdf-box: Lecture notes, volume 3 (PDF)](../../pdf/lecture-notes-3-flows.pdf) · [:material-pencil: Exercises: Transportation and assignment](../../exercises/transportation-and-assignment.md)
+**Part 3 · Flows · Chapter 7** · [:material-file-pdf-box: Lecture notes, volume 3 (PDF)](../../pdf/lecture-notes-3-flows.pdf) · [:material-presentation: Slides](../../pdf/slides-transportation-and-assignment.pdf) · [:material-pencil: Exercises: Transportation and assignment](../../exercises/transportation-and-assignment.md) · [:material-gesture-tap: App: Transportation: initial solution and potentials method](../../lab/transportation-potentials-method.md) · [:material-gesture-tap: App: Assignment: the Hungarian algorithm](../../lab/assignment-hungarian-algorithm.md)
 
 </div>
 
@@ -71,3 +71,7 @@ title: "Transportation and assignment"
 ---
 
 **Exercises on this chapter:** [:material-pencil: Transportation and assignment](../../exercises/transportation-and-assignment.md)
+
+<!-- laboratorio-interattivo: sezione generata da interattivi.py -->
+
+:material-flask-outline: **In the interactive lab:** [Transportation: initial solution and potentials method](../../lab/transportation-potentials-method.md), [Assignment: the Hungarian algorithm](../../lab/assignment-hungarian-algorithm.md).

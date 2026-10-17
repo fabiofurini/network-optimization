@@ -6,7 +6,7 @@ title: "The minimum cost flow model"
 
 <div class="info-capitolo" markdown>
 
-**Part 3 · Flows · Chapter 4** · [:material-book-open-variant: Chapter 4: Flow models](index.md) · [:material-file-pdf-box: Lecture notes, volume 3 (PDF)](../../pdf/lecture-notes-3-flows.pdf) · [:material-pencil: Exercises: Flow models](../../exercises/network-flow-models.md)
+**Part 3 · Flows · Chapter 4** · [:material-book-open-variant: Chapter 4: Flow models](index.md) · [:material-file-pdf-box: Lecture notes, volume 3 (PDF)](../../pdf/lecture-notes-3-flows.pdf) · [:material-presentation: Slides](../../pdf/slides-network-flow-models.pdf) · [:material-pencil: Exercises: Flow models](../../exercises/network-flow-models.md)
 
 </div>
 

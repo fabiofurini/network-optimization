@@ -435,7 +435,7 @@ title: "Exercises · Project management"
 
         and $T=\mathit{ES}_{9}=31$ days.
 
-    2. The last two columns of the table are $\mathit{TS}_j=\mathit{LS}_j-\mathit{ES}_j$ and $\mathit{FS}_j=\min \mathit{ES}_k-\mathit{EF}_j$. The critical activities, with $\mathit{TS}_j=0$, are $1$, $3$, $5$, $7$ and $8$, and the tight arcs from START reach FINISH only along $\text{START},\allowbreak 1,\allowbreak 3,\allowbreak 5,\allowbreak 7,\allowbreak 8,\allowbreak \text{FINISH}$, the critical path.
+    2. The two float columns of the table are $\mathit{TS}_j=\mathit{LS}_j-\mathit{ES}_j$ and $\mathit{FS}_j=\min \mathit{ES}_k-\mathit{EF}_j$. The critical activities, with $\mathit{TS}_j=0$, are $1$, $3$, $5$, $7$ and $8$, and the tight arcs from START reach FINISH only along $\text{START},\allowbreak 1,\allowbreak 3,\allowbreak 5,\allowbreak 7,\allowbreak 8,\allowbreak \text{FINISH}$, the critical path.
 
     3. Activity $2$ has $\mathit{TS}_{2}=8$ and $\mathit{FS}_{2}=3$. It can start $8$ days late without delaying the project, but only $3$ days late without moving any other activity. With a delay of $8$ days the earliest start times of the activities $4$ and $6$ move, by $5$ days, and FINISH stays at $T=31$.
 

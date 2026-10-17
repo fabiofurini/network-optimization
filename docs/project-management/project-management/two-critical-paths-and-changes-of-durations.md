@@ -6,11 +6,12 @@ title: "Two critical paths and changes of durations"
 
 <div class="info-capitolo" markdown>
 
-**Part 5 · Project management · Chapter 9** · [:material-book-open-variant: Chapter 9: Project management](index.md) · [:material-file-pdf-box: Lecture notes, volume 5 (PDF)](../../pdf/lecture-notes-5-project-management.pdf) · [:material-pencil: Exercises: Project management](../../exercises/project-management.md)
+**Part 5 · Project management · Chapter 9** · [:material-book-open-variant: Chapter 9: Project management](index.md) · [:material-file-pdf-box: Lecture notes, volume 5 (PDF)](../../pdf/lecture-notes-5-project-management.pdf) · [:material-presentation: Slides](../../pdf/slides-project-management.pdf) · [:material-pencil: Exercises: Project management](../../exercises/project-management.md) · [:material-gesture-tap: App: The critical path method (CPM)](../../lab/critical-path-method.md)
 
 </div>
 
 <a id="sez-pm-sec-changes"></a>
+
 - A planner often asks what happens to the project if one activity takes longer, or if more crews make it shorter. The slacks and the critical paths answer without running the method again.
 
 <a id="box-26-pm-prop-change"></a>

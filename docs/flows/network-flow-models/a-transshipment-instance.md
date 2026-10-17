@@ -6,11 +6,12 @@ title: "A transshipment instance"
 
 <div class="info-capitolo" markdown>
 
-**Part 3 · Flows · Chapter 4** · [:material-book-open-variant: Chapter 4: Flow models](index.md) · [:material-file-pdf-box: Lecture notes, volume 3 (PDF)](../../pdf/lecture-notes-3-flows.pdf) · [:material-pencil: Exercises: Flow models](../../exercises/network-flow-models.md)
+**Part 3 · Flows · Chapter 4** · [:material-book-open-variant: Chapter 4: Flow models](index.md) · [:material-file-pdf-box: Lecture notes, volume 3 (PDF)](../../pdf/lecture-notes-3-flows.pdf) · [:material-presentation: Slides](../../pdf/slides-network-flow-models.pdf) · [:material-pencil: Exercises: Flow models](../../exercises/network-flow-models.md)
 
 </div>
 
 <a id="sez-sec-nf-example"></a>
+
 - We solve the $\mathrm{MCF}$ model of <span style="color:#1971c2">[Example 4.2](the-minimum-cost-flow-model.md#box-6-nf-ex-model)</span>: the reference network, with two supply nodes, two demand nodes and two transshipment nodes. The optimal solution is computed with Gurobi (gurobipy), and then certified by hand with <span style="color:#1971c2">[Corollary 4.20](the-dual-model-and-the-reduced-costs.md#box-27-nf-cor-certificate)</span>.
 
 <a id="box-29-nf-ex-opt"></a>

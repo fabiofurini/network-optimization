@@ -6,7 +6,7 @@ title: "Special cases"
 
 <div class="info-capitolo" markdown>
 
-**Part 3 · Flows · Chapter 4** · [:material-book-open-variant: Chapter 4: Flow models](index.md) · [:material-file-pdf-box: Lecture notes, volume 3 (PDF)](../../pdf/lecture-notes-3-flows.pdf) · [:material-pencil: Exercises: Flow models](../../exercises/network-flow-models.md)
+**Part 3 · Flows · Chapter 4** · [:material-book-open-variant: Chapter 4: Flow models](index.md) · [:material-file-pdf-box: Lecture notes, volume 3 (PDF)](../../pdf/lecture-notes-3-flows.pdf) · [:material-presentation: Slides](../../pdf/slides-network-flow-models.pdf) · [:material-pencil: Exercises: Flow models](../../exercises/network-flow-models.md)
 
 </div>
 
@@ -23,7 +23,7 @@ title: "Special cases"
 </tr>
 <tr>
 <td><strong>Maximum flow</strong></td>
-<td><span class="arithmatex">\(b_i=0\)</span> and <span class="arithmatex">\(c_{ij}=0\)</span> for every arc, plus the arc <span class="arithmatex">\((t,s)\)</span> with <span class="arithmatex">\(c_{ts}=-1\)</span> and <span class="arithmatex">\(u_{ts}=+\infty\)</span>: the flow on <span class="arithmatex">\((t,s)\)</span> is the value sent from <span class="arithmatex">\(s\)</span> to <span class="arithmatex">\(t\)</span>.</td>
+<td><span class="arithmatex">\(b_i=0\)</span> for every node and <span class="arithmatex">\(c_{ij}=0\)</span> for every arc, plus the arc <span class="arithmatex">\((t,s)\)</span> with <span class="arithmatex">\(c_{ts}=-1\)</span> and <span class="arithmatex">\(u_{ts}=+\infty\)</span>: the flow on <span class="arithmatex">\((t,s)\)</span> is the value sent from <span class="arithmatex">\(s\)</span> to <span class="arithmatex">\(t\)</span>.</td>
 </tr>
 <tr>
 <td><strong>Transportation</strong></td>

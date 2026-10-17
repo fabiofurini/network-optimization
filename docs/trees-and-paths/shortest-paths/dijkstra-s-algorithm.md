@@ -6,11 +6,12 @@ title: "Dijkstra's algorithm"
 
 <div class="info-capitolo" markdown>
 
-**Part 2 · Trees and paths · Chapter 3** · [:material-book-open-variant: Chapter 3: Shortest paths](index.md) · [:material-file-pdf-box: Lecture notes, volume 2 (PDF)](../../pdf/lecture-notes-2-trees-and-paths.pdf) · [:material-pencil: Exercises: Shortest paths](../../exercises/shortest-paths.md) · [:material-gesture-tap: App: Shortest paths: Dijkstra, Bellman–Ford, acyclic graphs](../../lab/shortest-paths-dijkstra-bellman-ford.md)
+**Part 2 · Trees and paths · Chapter 3** · [:material-book-open-variant: Chapter 3: Shortest paths](index.md) · [:material-file-pdf-box: Lecture notes, volume 2 (PDF)](../../pdf/lecture-notes-2-trees-and-paths.pdf) · [:material-presentation: Slides](../../pdf/slides-shortest-paths.pdf) · [:material-pencil: Exercises: Shortest paths](../../exercises/shortest-paths.md) · [:material-gesture-tap: App: Shortest paths: Dijkstra, Bellman–Ford, acyclic graphs](../../lab/shortest-paths-dijkstra-bellman-ford.md)
 
 </div>
 
 <a id="sez-sec-sp-dijkstra"></a>
+
 - In this section all lengths are non-negative: $d_{ij} \ge 0$ for every arc. Then every cycle has length $\ge 0$, and (A2) holds.
 
 - The nodes are <strong>permanent</strong>, when their label is final, or <strong>temporary</strong>. At every iteration the temporary node with the smallest label becomes permanent.

@@ -1072,7 +1072,7 @@ title: "Exercises · The network simplex"
         </tr>
         </table></div>
 
-        with cost $83$; the arcs of $U$ at their capacity are $(3,4)$. The reduced costs are strictly positive on $L$ and strictly negative on $U$, so the optimum is unique (Gurobi gives the same value).
+        with cost $83$; the arc of $U$ at its capacity is $(3,4)$. The reduced costs are strictly positive on $L$ and strictly negative on $U$, so the optimum is unique (Gurobi gives the same value).
 
         ![Figure 8](../img/ex-network-simplex/fig08.svg){ .fig loading=lazy  }
 

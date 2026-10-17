@@ -160,7 +160,7 @@ title: "Exercises · Minimum spanning trees"
         </tr>
         </table></div>
 
-        The algorithm stops after $10$ of the $11$ edges, when $|F|=6$. The edges $\{6,7\}$ are never scanned.
+        The algorithm stops after $10$ of the $11$ edges, when $|F|=6$. The edge $\{6,7\}$ is never scanned.
 
     3. The tree is $F=\{\{1,2\},\allowbreak \{2,3\},\allowbreak \{2,5\},\allowbreak \{2,6\},\allowbreak \{3,7\},\allowbreak \{4,7\}\}$, of weight $5+1+4+8+7+16=41$; on each tree edge, the weight and in brackets the step of its acceptance:
 

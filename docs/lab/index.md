@@ -56,4 +56,56 @@ which you can also change. Pick an app: it opens full page. Everything runs in t
 
     [Open the app →](maximum-flow-ford-fulkerson-edmonds-karp.md)
 
+-   :material-cash: **Minimum cost flow: cycle canceling and successive shortest paths**
+
+    ---
+
+    The residual network with costs, the negative cycle and its augmentation, or the shortest paths on the reduced costs; at the end the potentials certificate.
+
+    [Open the app →](minimum-cost-flow.md)
+
+-   :material-truck-delivery: **Transportation: initial solution and potentials method**
+
+    ---
+
+    The transportation tableau: north-west corner or minimum cost, then the potentials, the reduced costs, the cycle of the entering cell and the step.
+
+    [Open the app →](transportation-potentials-method.md)
+
+-   :material-grid: **Assignment: the Hungarian algorithm**
+
+    ---
+
+    Row and column reduction, covering the zeros with the minimum number of lines, adjusting the matrix and the optimal assignment.
+
+    [Open the app →](assignment-hungarian-algorithm.md)
+
+</div>
+
+## The network simplex
+
+<div class="grid cards" markdown>
+
+-   :material-swap-horizontal: **The network simplex, pivot by pivot**
+
+    ---
+
+    The basis tree, the arcs at their bounds, the potentials and the reduced costs; the entering arc, the cycle, the step and the leaving arc; at the end the certificate.
+
+    [Open the app →](network-simplex.md)
+
+</div>
+
+## Project management
+
+<div class="grid cards" markdown>
+
+-   :material-chart-gantt: **The critical path method (CPM)**
+
+    ---
+
+    The forward and backward pass on the project network, the slacks, the critical activities and the Gantt chart.
+
+    [Open the app →](critical-path-method.md)
+
 </div>

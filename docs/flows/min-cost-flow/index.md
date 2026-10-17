@@ -6,7 +6,7 @@ title: "Minimum cost flow"
 
 <div class="info-capitolo" markdown>
 
-**Part 3 · Flows · Chapter 6** · [:material-file-pdf-box: Lecture notes, volume 3 (PDF)](../../pdf/lecture-notes-3-flows.pdf) · [:material-pencil: Exercises: Minimum cost flow](../../exercises/min-cost-flow.md)
+**Part 3 · Flows · Chapter 6** · [:material-file-pdf-box: Lecture notes, volume 3 (PDF)](../../pdf/lecture-notes-3-flows.pdf) · [:material-presentation: Slides](../../pdf/slides-min-cost-flow.pdf) · [:material-pencil: Exercises: Minimum cost flow](../../exercises/min-cost-flow.md) · [:material-gesture-tap: App: Minimum cost flow: cycle canceling and successive shortest paths](../../lab/minimum-cost-flow.md)
 
 </div>
 
@@ -85,3 +85,7 @@ title: "Minimum cost flow"
 ---
 
 **Exercises on this chapter:** [:material-pencil: Minimum cost flow](../../exercises/min-cost-flow.md)
+
+<!-- laboratorio-interattivo: sezione generata da interattivi.py -->
+
+:material-flask-outline: **In the interactive lab:** [Minimum cost flow: cycle canceling and successive shortest paths](../../lab/minimum-cost-flow.md).

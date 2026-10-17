@@ -6,7 +6,7 @@ title: "Project management"
 
 <div class="info-capitolo" markdown>
 
-**Part 5 · Project management · Chapter 9** · [:material-file-pdf-box: Lecture notes, volume 5 (PDF)](../../pdf/lecture-notes-5-project-management.pdf) · [:material-pencil: Exercises: Project management](../../exercises/project-management.md)
+**Part 5 · Project management · Chapter 9** · [:material-file-pdf-box: Lecture notes, volume 5 (PDF)](../../pdf/lecture-notes-5-project-management.pdf) · [:material-presentation: Slides](../../pdf/slides-project-management.pdf) · [:material-pencil: Exercises: Project management](../../exercises/project-management.md) · [:material-gesture-tap: App: The critical path method (CPM)](../../lab/critical-path-method.md)
 
 </div>
 
@@ -79,3 +79,7 @@ title: "Project management"
 ---
 
 **Exercises on this chapter:** [:material-pencil: Project management](../../exercises/project-management.md)
+
+<!-- laboratorio-interattivo: sezione generata da interattivi.py -->
+
+:material-flask-outline: **In the interactive lab:** [The critical path method (CPM)](../../lab/critical-path-method.md).
