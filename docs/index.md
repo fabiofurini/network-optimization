@@ -18,6 +18,7 @@ For third-year students of the Bachelor's degree in Management Engineering at Sa
 
 [:material-school: Study the course](graphs/graphs/index.md){ .md-button .md-button--primary }
 [:material-pencil: Practice](exercises/index.md){ .md-button }
+[:material-clipboard-check-outline: Test yourself](self-assessment.md){ .md-button }
 [:material-download: Get the materials](downloads.md){ .md-button }
 
 </div>
@@ -87,6 +88,16 @@ The same entries as the menu: each card gives its part and its chapters in the l
     The algorithms of the course step by step, on the reference instances or on your own.
 
     [:octicons-arrow-right-24: The apps](lab/index.md)
+
+-   :material-clipboard-check-outline: **Self-assessment**
+
+    ---
+
+    *Mock exam*
+
+    A new mock exam at every start: 13 questions, 33 points, with the solutions and links to the notes.
+
+    [:octicons-arrow-right-24: Test yourself](self-assessment.md)
 
 </div>
 

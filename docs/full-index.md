@@ -113,3 +113,4 @@ All the pages of the website, in the order of the menu: the chapters with their 
 - [Exercises](exercises/index.md)
 - [Lab](lab/index.md)
 - [Downloads](downloads.md)
+- [Self-assessment](self-assessment.md)
