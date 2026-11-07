@@ -53,3 +53,10 @@ The lecture slides, one PDF per chapter, with the same definitions and examples 
 | 9 | [Project management](project-management/project-management/index.md) | [:material-file-pdf-box: PDF](pdf/slides-project-management.pdf) (0.6 MB) |
 
 </div>
+
+<!-- banca-domande -->
+## Quiz question bank
+
+All the self-assessment questions, by part and chapter, with the correct answer and the explanation; for the generated questions, whose numbers change at every start, a few examples.
+
+[:material-format-list-checks: Question bank](quiz/question_list.html){ .md-button }
