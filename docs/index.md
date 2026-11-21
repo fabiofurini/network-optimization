@@ -31,9 +31,9 @@ Prerequisites: [Linear Programming](https://fabiofurini.github.io/linear-program
 <!-- collana-app -->
 ## Try it now
 
-Shortest paths: follow Dijkstra and Bellman-Ford updating the node labels, one arc at a time.
+Shortest paths with Dijkstra, at the end: all labels are permanent and the predecessor arcs form the shortest path tree from the source. Press «Run» to follow the algorithm one arc at a time, or switch to Bellman-Ford.
 
-<div class="gi" data-grafico="no-shortest-paths"></div>
+<div class="gi" data-grafico="no-shortest-paths" data-vetrina="dijkstra"></div>
 
 [:material-gesture-tap: More apps in the lab](lab/index.md){ .md-button }
 <!-- /collana-app -->
