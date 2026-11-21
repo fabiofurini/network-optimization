@@ -46,9 +46,11 @@ title: "Graphs"
 
 !!! nota "Prerequisites"
 
-    - Linear algebra: matrices, linear combinations, linearly independent vectors and the rank of a matrix.
+    - From the module <em>Linear Algebra</em>, the chapters [«Vectors»](https://fabiofurini.github.io/linear-algebra/vectors-matrices/01-vectors/) and [«Matrices»](https://fabiofurini.github.io/linear-algebra/vectors-matrices/02-matrices/): matrices, linear combinations, linearly independent vectors and the rank of a matrix.
 
-    - Sets, relations and equivalence classes; the $O(\cdot)$ notation for the running time of an algorithm.
+    - From the module <em>Mathematical Analysis 1</em>, the chapters [«Sets»](https://fabiofurini.github.io/mathematical-analysis-1/numbers/01-sets/) and [«Binary relations»](https://fabiofurini.github.io/mathematical-analysis-1/relations/01-binary-relations/): sets, relations and equivalence classes.
+
+    - From the module <em>Algorithms</em>, the chapter [«Asymptotic notation»](https://fabiofurini.github.io/algorithms/asymptotics/09-asymptotic-notation/): the $O(\cdot)$ notation for the running time of an algorithm.
 
     - No knowledge of graph theory is needed: every notion is defined in this chapter.
 

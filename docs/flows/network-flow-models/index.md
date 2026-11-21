@@ -58,7 +58,7 @@ title: "Network flow models"
 
     - From the module Linear Programming, [Chapter 9 «Duality theory»](https://fabiofurini.github.io/linear-programming/duality/09-duality/) and [Chapter 15 «The geometry of Linear Programming»](https://fabiofurini.github.io/linear-programming/advanced-methods/15-geometry/): the dual of an LP, weak and strong duality, vertices of a polyhedron.
 
-    - Determinants: the Laplace expansion along a column and Cramer's rule.
+    - From the module <em>Linear Algebra</em>, the chapters [«Matrices»](https://fabiofurini.github.io/linear-algebra/vectors-matrices/02-matrices/) and [«System of linear equations»](https://fabiofurini.github.io/linear-algebra/systems/01-linear-systems/): determinants, the Laplace expansion along a column and Cramer's rule.
 
 !!! chiave "Objectives"
 

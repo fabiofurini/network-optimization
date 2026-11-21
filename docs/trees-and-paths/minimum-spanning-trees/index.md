@@ -50,7 +50,7 @@ title: "Minimum spanning trees"
 
     - The chapter [<u>«Graphs»</u>](https://fabiofurini.github.io/network-optimization/graphs/graphs/): paths and cycles, connected components, the characterizations of a tree and the fundamental cycles.
 
-    - The $O(\cdot)$ notation for the running time of an algorithm, and sorting $m$ numbers in $O(m\log m)$ time.
+    - From the module <em>Algorithms</em>, the chapters [«Asymptotic notation»](https://fabiofurini.github.io/algorithms/asymptotics/09-asymptotic-notation/) and [«Recursive algorithms»](https://fabiofurini.github.io/algorithms/recursion/17-recursive-algorithms/): the $O(\cdot)$ notation for the running time of an algorithm, and sorting $m$ numbers in $O(m\log m)$ time (merge sort).
 
 !!! chiave "Objectives"
 

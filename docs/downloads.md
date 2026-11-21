@@ -14,7 +14,7 @@ The lecture notes, the exercise books and the slides in PDF, with the same numbe
 |---|---|:---:|---|
 | 1. Graphs | Directed and undirected graphs and their language: computer representations, the node–arc incidence matrix, paths, cycles and connectivity, trees, breadth-first and depth-first search. | 1 | [:material-file-pdf-box: PDF](pdf/lecture-notes-1-graphs.pdf) (0.5 MB) |
 | 2. Trees and paths | Minimum spanning trees (Kruskal, Prim, the cut and cycle properties) and shortest paths (acyclic graphs, Bellman–Ford, Dijkstra), with potentials as a certificate of optimality. | 2–3 | [:material-file-pdf-box: PDF](pdf/lecture-notes-2-trees-and-paths.pdf) (0.6 MB) |
-| 3. Flows | Network flow models and total unimodularity; maximum flow and minimum cut; minimum cost flow with negative cycles, potentials and reduced costs; transportation, transshipment and assignment problems. | 4–7 | [:material-file-pdf-box: PDF](pdf/lecture-notes-3-flows.pdf) (0.9 MB) |
+| 3. Flows | Network flow models and total unimodularity; maximum flow and minimum cut; minimum cost flow with negative cycles, potentials and reduced costs; transportation, transshipment and assignment problems. | 4–7 | [:material-file-pdf-box: PDF](pdf/lecture-notes-3-flows.pdf) (0.8 MB) |
 | 4. The network simplex | The network simplex: bases as spanning trees, the pivot in the uncapacitated and capacitated cases, degeneracy. | 8 | [:material-file-pdf-box: PDF](pdf/lecture-notes-4-network-simplex.pdf) (0.5 MB) |
 | 5. Project management | Project management with the critical path method: project networks, earliest and latest times, slacks and critical paths. | 9 | [:material-file-pdf-box: PDF](pdf/lecture-notes-5-project-management.pdf) (0.6 MB) |
 
