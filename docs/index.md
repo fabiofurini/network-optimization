@@ -20,8 +20,6 @@ The course presents network optimization: graphs, minimum spanning trees, shorte
 flows (maximum flow, minimum cost flow, transportation and assignment), the network simplex and
 project management.
 
-Every chapter has definitions, results with proofs, examples worked out step by step and exercises with solutions.
-
 Prerequisites: [Linear Programming](https://fabiofurini.github.io/linear-programming/).
 
 [Start :material-arrow-right:](graphs/graphs/index.md){ .md-button .md-button--primary }
