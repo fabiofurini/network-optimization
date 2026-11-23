@@ -16,7 +16,11 @@ hide:
 Teaching material conceived and developed by **[Fabio Furini](https://fabiofurini.github.io/)**, associate
 professor at [DIAG](https://www.diag.uniroma1.it/), Sapienza University of Rome.
 
-**The course lecture notes, online**: graphs, minimum spanning trees, shortest paths, network flows (maximum flow, minimum cost flow, transportation and assignment), the network simplex and project management; with definitions, results with proofs, examples worked out step by step and exercises with solutions.
+The course presents network optimization: graphs, minimum spanning trees, shortest paths, network
+flows (maximum flow, minimum cost flow, transportation and assignment), the network simplex and
+project management.
+
+Every chapter has definitions, results with proofs, examples worked out step by step and exercises with solutions.
 
 Prerequisites: [Linear Programming](https://fabiofurini.github.io/linear-programming/).
 
